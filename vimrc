@@ -13,9 +13,7 @@ set guioptions-=r
 set guioptions-=b
 
 set background=dark
-"set background=light
 let g:solarized_contrast = "low"
-"colorscheme Tomorrow-Night-Eighties
 colorscheme solarized
 
 set number
