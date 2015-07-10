@@ -36,15 +36,5 @@ nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
 
 filetype plugin on
 filetype plugin indent on
-" set autoindent
 
-" let g:indent_guides_guide_size=1
 set colorcolumn=80
-
-" thrift
-" au BufRead,BufNewFile *.thrift set filetype=thrift
-" au! Syntax thrift source ~/.vim/syntax/thrift.vim
-
-" proto
-" au BufRead,BufNewFile *.proto set filetype=proto
-" au! Syntax proto source ~/.vim/syntax/proto.vim
