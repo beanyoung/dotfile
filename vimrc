@@ -36,3 +36,4 @@ filetype plugin on
 filetype plugin indent on
 
 set colorcolumn=80
+let g:pymode_rope = 0
