@@ -36,10 +36,11 @@ filetype plugin indent on
 
 set colorcolumn=80
 let g:pymode_rope = 0
-let g:pymode_lint_checkers = ['pep8', 'mccabe']
-let g:pymode_rope_guess_project = 0
-let g:pymode_rope_lookup_project = 0
-let g:pymode_rope_autoimport = 0
-let g:pymode_rope_autoimport_modules = []
+let g:pymode_lint_on_fly = 1
+" let g:pymode_lint_checkers = ['pep8', 'mccabe']
+" let g:pymode_rope_guess_project = 0
+" let g:pymode_rope_lookup_project = 0
+" let g:pymode_rope_autoimport = 0
+" let g:pymode_rope_autoimport_modules = []
+" let g:pymode_rope_completion = 0
 let g:pymode_options_max_line_length = 79
-let g:pymode_rope_completion = 0
