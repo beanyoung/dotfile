@@ -30,8 +30,6 @@ set shiftwidth=4
 set expandtab
 set guifont=Inconsolata:h16
 
-nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
-
 filetype plugin on
 filetype plugin indent on
 
@@ -44,3 +42,5 @@ let g:pymode_lint_checkers = ['pep8', 'mccabe']
 
 let g:tagbar_ctags_bin = '/usr/local/Cellar/ctags/5.8_1/bin/ctags'
 let g:tagbar_width = 30
+
+let g:NERDTreeDirArrows = 0
