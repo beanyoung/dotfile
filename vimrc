@@ -1,7 +1,8 @@
 syntax on
 
 if has('gui_running')
-    set background=light
+    " set background=light
+    set background=dark
 else
     set background=dark
 endif
@@ -12,8 +13,8 @@ set guioptions-=L
 set guioptions-=r
 set guioptions-=b
 
-let g:solarized_contrast = "high"
 colorscheme solarized
+let g:solarized_contrast = "low"
 
 set number
 set ruler
@@ -37,5 +38,6 @@ filetype plugin indent on
 set colorcolumn=80
 let g:pymode_rope = 0
 let g:pymode_folding = 0
-let g:pymode_lint_on_fly = 1
+" let g:pymode_lint_on_fly = 1
 let g:pymode_options_max_line_length = 79
+let g:pymode_lint_checkers = ['pep8', 'mccabe']
