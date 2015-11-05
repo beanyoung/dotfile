@@ -41,3 +41,6 @@ let g:pymode_folding = 0
 " let g:pymode_lint_on_fly = 1
 let g:pymode_options_max_line_length = 79
 let g:pymode_lint_checkers = ['pep8', 'mccabe']
+
+let g:tagbar_ctags_bin = '/usr/local/Cellar/ctags/5.8_1/bin/ctags'
+let g:tagbar_width = 30
