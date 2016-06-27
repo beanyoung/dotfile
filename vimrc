@@ -44,3 +44,7 @@ let g:tagbar_ctags_bin = '/usr/local/Cellar/ctags/5.8_1/bin/ctags'
 let g:tagbar_width = 30
 
 let g:NERDTreeDirArrows = 0
+let g:NERDTreeIgnore=['\.pyc$']
+
+autocmd FileType html setlocal shiftwidth=2 tabstop=2
+autocmd FileType jinja setlocal shiftwidth=2 tabstop=2
