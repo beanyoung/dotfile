@@ -28,7 +28,7 @@ set encoding=prc
 set tabstop=4
 set shiftwidth=4
 set expandtab
-set guifont=Inconsolata:h16
+set guifont=Inconsolata:h18
 
 filetype plugin on
 filetype plugin indent on
