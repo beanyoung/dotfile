@@ -29,6 +29,7 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set guifont=Inconsolata:h18
+set ambiwidth=double
 
 filetype plugin on
 filetype plugin indent on
@@ -44,7 +45,8 @@ let g:tagbar_ctags_bin = '/usr/local/Cellar/ctags/5.8_1/bin/ctags'
 let g:tagbar_width = 30
 
 let g:NERDTreeDirArrows = 0
-let g:NERDTreeIgnore=['\.pyc$']
+let g:NERDTreeShowHidden = 1
+let g:NERDTreeIgnore=['\.pyc$', '\.swp$', '\.DS_Store$']
 
 autocmd FileType html setlocal shiftwidth=2 tabstop=2
 autocmd FileType jinja setlocal shiftwidth=2 tabstop=2
