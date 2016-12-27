@@ -34,7 +34,6 @@ set expandtab
 set guifont=Inconsolata:h18
 set ambiwidth=double
 
-filetype plugin on
 filetype plugin indent on
 
 set colorcolumn=80
