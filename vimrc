@@ -46,9 +46,6 @@ let g:pymode_lint_checkers = ['pep8', 'pyflakes']
 let g:pymode_lint_ignore = "E402"
 let g:pymode_syntax = 1
 
-let g:tagbar_ctags_bin = '/usr/local/Cellar/ctags/5.8_1/bin/ctags'
-let g:tagbar_width = 30
-
 let g:NERDTreeDirArrows = 1
 let g:NERDTreeShowHidden = 1
 let g:NERDTreeIgnore=['\.pyc$', '\.swp$', '\.DS_Store$']
