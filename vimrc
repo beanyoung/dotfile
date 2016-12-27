@@ -40,9 +40,11 @@ filetype plugin indent on
 set colorcolumn=80
 let g:pymode_rope = 0
 let g:pymode_folding = 1
-let g:pymode_lint_on_fly = 0
+let g:pymode_lint_on_fly = 1
 let g:pymode_options_max_line_length = 79
-let g:pymode_lint_checkers = ['pep8', 'mccabe']
+let g:pymode_lint_checkers = ['pep8', 'pyflakes']
+let g:pymode_lint_ignore = "E402"
+let g:pymode_syntax = 1
 
 let g:tagbar_ctags_bin = '/usr/local/Cellar/ctags/5.8_1/bin/ctags'
 let g:tagbar_width = 30
