@@ -26,7 +26,7 @@ set noeb
 set fileencoding=utf-8
 set fileencodings=utf-8,gb2312,gbk,gb18030
 set termencoding=utf-8
-set encoding=prc
+set encoding=utf-8
 
 set tabstop=4
 set shiftwidth=4
