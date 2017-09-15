@@ -1,5 +1,6 @@
 filetype off
-execute pathogen#infect()
+call pathogen#infect()
+call pathogen#helptags()
 
 syntax on
 
@@ -19,6 +20,8 @@ set guioptions-=b
 colorscheme solarized
 let g:solarized_contrast = "low"
 
+filetype plugin indent on
+
 set number
 set ruler
 set noeb
@@ -33,15 +36,15 @@ set shiftwidth=4
 set expandtab
 set guifont=Inconsolata:h18
 set ambiwidth=double
-
-filetype plugin indent on
-
 set colorcolumn=80
+set backspace=2
+
 let g:pymode_rope = 0
-let g:pymode_folding = 1
+let g:pymode_folding = 0
 let g:pymode_lint_on_fly = 0
 let g:pymode_options_max_line_length = 79
-let g:pymode_lint_checkers = ['pep8', 'pyflakes']
+" let g:pymode_lint_checkers = ['pep8', 'pyflakes']
+let g:pymode_lint_checkers = ['pep8']
 let g:pymode_lint_ignore = "E402"
 let g:pymode_syntax = 1
 
