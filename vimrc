@@ -53,4 +53,5 @@ let g:NERDTreeShowHidden = 1
 let g:NERDTreeIgnore=['\.pyc$', '\.swp$', '\.DS_Store$']
 
 autocmd FileType html setlocal shiftwidth=2 tabstop=2
+autocmd FileType htmldjango setlocal shiftwidth=2 tabstop=2
 autocmd FileType jinja setlocal shiftwidth=2 tabstop=2
