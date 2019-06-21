@@ -2,3 +2,4 @@ https://github.com/scrooloose/nerdtree.git
 https://github.com/klen/python-mode.git
 https://github.com/fatih/vim-go.git
 https://github.com/solarnz/thrift.vim.git
+https://github.com/elixir-editors/vim-elixir.git
