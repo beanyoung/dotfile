@@ -10,3 +10,6 @@
 [submodule "vim/pack/plugins/start/vim-swig"]
 	path = vim/pack/plugins/start/vim-swig
 	url = https://github.com/SpaceVim/vim-swig.git
+[submodule "vim/pack/plugins/start/tabnine-vim"]
+	path = vim/pack/plugins/start/tabnine-vim
+	url = https://github.com/zxqfl/tabnine-vim.git
