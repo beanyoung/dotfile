@@ -13,3 +13,6 @@
 [submodule "vim/pack/plugins/start/tabnine-vim"]
 	path = vim/pack/plugins/start/tabnine-vim
 	url = https://github.com/zxqfl/tabnine-vim.git
+[submodule "vim/pack/plugins/start/kotlin-vim"]
+	path = vim/pack/plugins/start/kotlin-vim
+	url = https://github.com/udalov/kotlin-vim.git
