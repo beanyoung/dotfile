@@ -45,6 +45,9 @@ let g:pymode_options_max_line_length = 79
 let g:pymode_lint_checkers = ['pep8']
 let g:pymode_lint_ignore = "E402"
 let g:pymode_syntax = 1
+let g:pymode_init = 0
+let g:pymode_lint = 0
+let g:pymode_virtualenv = 0
 
 let g:NERDTreeDirArrows = 1
 let g:NERDTreeShowHidden = 1
