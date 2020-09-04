@@ -4,9 +4,9 @@ syntax on
 
 if has('gui_running')
     " set background=light
-    set background=dark
+    set background=light
 else
-    set background=dark
+    set background=light
 endif
 
 set guioptions-=T
@@ -15,8 +15,9 @@ set guioptions-=L
 set guioptions-=r
 set guioptions-=b
 
-colorscheme solarized
-let g:solarized_contrast = "low"
+" colorscheme solarized
+colorscheme Tomorrow
+let g:solarized_contrast = "high"
 
 filetype plugin indent on
 
@@ -49,7 +50,3 @@ let g:pymode_syntax = 1
 let g:NERDTreeDirArrows = 1
 let g:NERDTreeShowHidden = 1
 let g:NERDTreeIgnore=['\.pyc$', '\.swp$', '\.DS_Store$']
-
-autocmd FileType html setlocal shiftwidth=2 tabstop=2
-autocmd FileType htmldjango setlocal shiftwidth=2 tabstop=2
-autocmd FileType jinja setlocal shiftwidth=2 tabstop=2
