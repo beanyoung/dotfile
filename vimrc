@@ -53,3 +53,6 @@ let g:pymode_virtualenv = 0
 let g:NERDTreeDirArrows = 1
 let g:NERDTreeShowHidden = 1
 let g:NERDTreeIgnore=['\.pyc$', '\.swp$', '\.DS_Store$']
+
+autocmd FileType html setlocal shiftwidth=2 softtabstop=2 expandtab
+autocmd FileType jinja setlocal shiftwidth=2 softtabstop=2 expandtab
