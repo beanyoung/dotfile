@@ -7,18 +7,3 @@
 [submodule "vim/pack/plugins/start/nerdtree"]
 	path = vim/pack/plugins/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule "vim/pack/plugins/start/vim-swig"]
-	path = vim/pack/plugins/start/vim-swig
-	url = https://github.com/SpaceVim/vim-swig.git
-[submodule "vim/pack/plugins/start/tabnine-vim"]
-	path = vim/pack/plugins/start/tabnine-vim
-	url = https://github.com/zxqfl/tabnine-vim.git
-[submodule "vim/pack/plugins/start/kotlin-vim"]
-	path = vim/pack/plugins/start/kotlin-vim
-	url = https://github.com/udalov/kotlin-vim.git
-[submodule "vim/pack/plugins/start/vim-jinja"]
-	path = vim/pack/plugins/start/vim-jinja
-	url = https://github.com/lepture/vim-jinja.git
-[submodule "vim/pack/plugins/start/vim-javascript"]
-	path = vim/pack/plugins/start/vim-javascript
-	url = https://github.com/pangloss/vim-javascript.git
