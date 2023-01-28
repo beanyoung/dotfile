@@ -15,9 +15,8 @@ set guioptions-=L
 set guioptions-=r
 set guioptions-=b
 
-" colorscheme solarized
+set background=light
 colorscheme Tomorrow
-let g:solarized_contrast = "high"
 
 filetype plugin indent on
 
